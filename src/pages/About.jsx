@@ -1,16 +1,10 @@
-// ✅ IMPORT ALL YOUR PNG LOGOS
-import htmlLogo from "../assets/logos/html.png";
-import cssLogo from "../assets/logos/css.png";
-import javascriptLogo from "../assets/logos/javascript.png";
-import reactLogo from "../assets/logos/react.png";
-import tailwindcssLogo from "../assets/logos/tailwindcss.png";
-import nodejsLogo from "../assets/logos/nodejs.png";
-import expressjsLogo from "../assets/logos/expressjs.png";
-import mongodbLogo from "../assets/logos/mongodb.png";
-import firebaseLogo from "../assets/logos/firebase.png";
-import gitLogo from "../assets/logos/git.png";
-import githubLogo from "../assets/logos/github.png";
-import vscodeLogo from "../assets/logos/vscode.png";
+import cssLogo from "../assets/logos/CSS.png";
+import javascriptLogo from "../assets/logos/JavaScript.png";
+import reactLogo from "../assets/logos/React.png";
+import tailwindcssLogo from "../assets/logos/tailwindcss.png"; // ✅ this seems ok
+import gitLogo from "../assets/logos/Git.png";
+import githubLogo from "../assets/logos/Github.png";
+import vscodeLogo from "../assets/logos/VsCode.png";
 
 function About() {
   // ✅ DEFINE SKILLS ARRAY
