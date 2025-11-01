@@ -26,7 +26,7 @@ function Home() {
           View Projects →
         </Link>
         <a
-          href="/My Resume.pdf"
+          href="/Kavitha_Resume.pdf"
           download
           className="border border-blue-600 text-blue-600 px-6 py-3 rounded hover:bg-blue-50 transition"
         >
