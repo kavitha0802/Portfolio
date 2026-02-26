@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <div className="p-8 max-w-xl mx-auto">
-      <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-red-600 mb-6">Contact Me</h1>
+      <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-500 mb-6">Contact Me</h1>
 
       <form className="flex flex-col gap-4">
         <input
@@ -21,7 +21,7 @@ function Contact() {
         ></textarea>
         <button
           type="submit"
-          className="bg-red-600 text-white py-2 px-4 rounded hover:bg-red-700"
+          className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-red-700"
         >
           Send Message
         </button>
