@@ -3,8 +3,13 @@ import javascriptLogo from "../assets/logos/JavaScript.png";
 import reactLogo from "../assets/logos/React.png";
 import tailwindcssLogo from "../assets/logos/tailwindcss.png"; // ✅ this seems ok
 import gitLogo from "../assets/logos/Git.png";
+import htmlLogo from "../assets/logos/html.png";
+import nodejsLogo from "../assets/logos/NodeJS.png";
+import expressjsLogo from "../assets/logos/expressjs.png";
 import githubLogo from "../assets/logos/Github.png";
-import vscodeLogo from "../assets/logos/VsCode.png";
+import mongodbLogo from "../assets/logos/MongoDB.png";
+import firebaseLogo from "../assets/logos/Firebase.png";
+import VscodeLogo from "../assets/logos/vscode.png";
 
 function About() {
   // ✅ DEFINE SKILLS ARRAY
@@ -20,7 +25,7 @@ function About() {
     { name: "Firebase", image: firebaseLogo },
     { name: "Git", image: gitLogo },
     { name: "GitHub", image: githubLogo },
-    { name: "VS Code", image: vscodeLogo },
+    { name: "vs Code", image: VscodeLogo },
   ];
 
   return (

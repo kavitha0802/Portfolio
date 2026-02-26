@@ -15,7 +15,7 @@ function Home() {
       </h1>
 
       <p className="text-gray-700 max-w-xl mb-8">
-        A  passionate Full Stack Developer building responsive and user-friendly websites with React, Node.js, and MongoDB.
+        A passionate Full Stack Developer building responsive and user-friendly websites with React, Node.js, and MongoDB.
       </p>
 
       <div className="flex gap-4">
@@ -25,13 +25,14 @@ function Home() {
         >
           View Projects →
         </Link>
-        <a
-          href="/Kavitha_Resume.pdf"
-          download
-          className="border border-blue-600 text-blue-600 px-6 py-3 rounded hover:bg-blue-50 transition"
-        >
-          Download Resume
-        </a>
+
+       <a
+  href={`${import.meta.env.BASE_URL}kavitha.pdf`}
+  download
+  className="border border-blue-600 text-blue-600 px-6 py-3 rounded hover:bg-blue-50 transition"
+>
+  Download Resume
+</a>
       </div>
     </section>
   );
