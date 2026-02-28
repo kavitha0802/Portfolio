@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <BrowserRouter basename="/Portfolio">
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
