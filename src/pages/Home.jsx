@@ -26,13 +26,13 @@ function Home() {
           View Projects →
         </Link>
 
-       <a
-  href={`${import.meta.env.BASE_URL}kavitha.pdf`}
-  download
-  className="border border-blue-600 text-blue-600 px-6 py-3 rounded hover:bg-blue-50 transition"
->
-  Download Resume
-</a>
+        <a
+          href={`${import.meta.env.BASE_URL}kavitha.pdf`}
+          download
+          className="border border-blue-600 text-blue-600 px-6 py-3 rounded hover:bg-blue-50 transition"
+        >
+          Download Resume
+        </a>
       </div>
     </section>
   );
